@@ -127,7 +127,7 @@ border: 2px solid #2a304d; color:#293752;
 .blue-box .right-content .right-content-title { font-size:15px; color:#fffffe; font-family: 'Open Sans'; font-weight:700;word-wrap:break-word; }
 .blue-box .right-content .right-content-title a{ color:#fffffe; text-decoration: underline;}
 .blue-box .right-content .right-content-title h1{font-size: 40px;text-transform:uppercase;text-align:center; margin-bottom:7px;}
-.blue-box .right-content .right-content-text { color:#fafafa;border:6px solid #d44e34; border-radius: 90px; min-height: 208px; padding: 20px 64px; width: 481px; float:left;  margin:5px 0 3%;}
+.blue-box .right-content .right-content-text { color:#fafafa;border:6px solid #d44e34; border-radius: 90px; /*min-height: 208px;*/ padding: 20px 64px; width: 481px; float:left;  margin:5px 0 3%;}
 .blue-box .right-content .right-content-text h1 { font-size:22px; font-family: 'Open Sans'; font-weight:700; text-align:center; color:#feffff; line-height: 27px;margin:0px 0px 10px;}
 .blue-box .right-content .right-content-text a{color:#fafafa; text-decoration: underline;}
 .blue-box .right-content .right-content-text ul { margin:0px; padding:0px;}
@@ -221,4 +221,74 @@ border: 2px solid #2a304d; color:#293752;
 .bottom-section:before {left: 40%;}
 .blue-box .right-content .bottom-box {width:90%;}
 
+}
+
+.free-text .content {
+  color: black;
+  font-size: 14pt;
+}
+
+.free-text ul li {
+  background: url('../img/arrow.png') no-repeat 0px 5px;
+  list-style: none;
+  margin: 0 0 2px;
+  padding: 0px 0px 0px 50px;
+  line-height: 28px;
+  margin-bottom: 1.5em;
+}
+
+.bottom-box {
+  text-align: center;
+}
+
+.button-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.button-container a._selz-btn {
+  display: block;
+  width: 100%;
+}
+
+.button-container ._selz-btn-label {
+  width: 70%;
+}
+
+.button-container ._selz-btn-add-on {
+  width: 30%;
+}
+
+.bottom-box2 {
+  clear: both;
+  /*background-color: #F4F4F4;
+  border: 3px solid #666666;*/
+  margin: 16px auto 0;
+  width: 76%;
+  padding: 2% 4%;
+  margin: 0 auto;
+}
+
+.bottom-box2 .secure {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  margin: 8px 0 0;
+}
+
+.bottom-box2 .secure span {
+  margin: 0 5px 0 0;
+  display: inline-block;
+}
+
+.bottom-box2 .secure img {
+  margin-left: 0.6%;
+}
+
+.bottom-box2 .secure p {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+  position: relative;
+  top: 3px;
 }
