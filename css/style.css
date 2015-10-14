@@ -300,13 +300,31 @@ border: 2px solid #2a304d; color:#293752;
 }
 
 .about img {
-  float: right;
   width: 14em;
   margin-left: 1.5em;
 }
 
+.bottom-box2 .button-container ._selz-btn-label:after {
+  content: 'Yes, I want the Ep Insider Pack!';
+}
+
+@media only screen and (max-width: 700px){
+.about img {
+  float: none !important;
+}
+.bottom-box2 .button-container ._selz-btn-label:after {
+  content: 'Buy Now!' !important;
+}
+}
+
+@media only screen and (max-width: 1020px) {
+.about img {
+  float: right;
+}
+}
+
 .bottom-section .free-text {
-  width: 768px !important;
+  max-width: 768px !important;
 }
 
 .blue-box .right-content .right-content-text .main-ul-wrapper {
