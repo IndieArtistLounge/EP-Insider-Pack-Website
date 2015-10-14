@@ -325,3 +325,11 @@ border: 2px solid #2a304d; color:#293752;
   font-size: 20px;
   margin-bottom: 0.3em;
 }
+
+div.offer {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  padding: 0 0.5em;
+}
