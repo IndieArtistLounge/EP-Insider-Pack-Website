@@ -244,6 +244,7 @@ border: 2px solid #2a304d; color:#293752;
 .button-container {
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 
 .button-container a._selz-btn {
@@ -251,12 +252,14 @@ border: 2px solid #2a304d; color:#293752;
   width: 100%;
 }
 
+@media only screen and (min-width: 730px) {
 .button-container ._selz-btn-label {
   width: 70%;
 }
 
 .button-container ._selz-btn-add-on {
   width: 30%;
+}
 }
 
 .bottom-box2 {
@@ -308,7 +311,7 @@ border: 2px solid #2a304d; color:#293752;
   content: 'Yes, I want the Ep Insider Pack!';
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 730px){
 .about img {
   float: none !important;
 }
@@ -317,7 +320,7 @@ border: 2px solid #2a304d; color:#293752;
 }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (min-width: 730px) {
 .about img {
   float: right;
 }
