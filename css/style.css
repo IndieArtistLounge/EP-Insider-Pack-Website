@@ -308,7 +308,7 @@ border: 2px solid #2a304d; color:#293752;
 }
 
 .bottom-box2 .button-container ._selz-btn-label:after {
-  content: 'Yes, I want the Ep Insider Pack!';
+  content: 'Yes, I want the EP Insider Pack!';
 }
 
 @media only screen and (max-width: 730px){
